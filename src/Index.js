@@ -18,7 +18,7 @@ app.get('/artikli/:artikl/narudzba/:datum/detalji', (req, res) => {
     } else {
         res.status(500);
         res.json({
-            error: 'argh!',
+            error: 'ups!',
         });
     }
 });
