@@ -3,7 +3,7 @@ import { getMaxListeners } from "node:process";
 let data = {
     korisnik: [
         {
-            email: antonioiv@gmail.com,
+            email: 'antonioiv@gmail.com',
             ime: 'Antonio',
             prezime: 'Ivanić',
         },
